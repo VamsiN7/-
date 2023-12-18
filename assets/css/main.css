@@ -2650,12 +2650,12 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(236, 230, 230, 0.973);
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
-		font-size: 0.8em;
+		color: rgba(236, 230, 230, 0.973);
+		font-size: 1.0em;
 		list-style: none;
 		margin: 1em 0 0 0;
 		padding: 0;
@@ -3219,3 +3219,53 @@ input, select, textarea {
 			}
 
 	}
+
+/* ABOUT */
+.about-wrapper,
+.project-wrapper,
+.socials-wrapper {
+  max-width: 1000px;
+  margin: 64px auto;
+  margin-top: -60px;
+  padding: 0px;
+}
+
+.about-wrapper {
+  justify-content: center;
+  display: flex;
+}
+
+.about-wrapper .col p {
+  line-height: 32px;
+}
+
+.about-wrapper .col {
+  flex: 1;
+}
+
+.about-wrapper .skills {
+  margin-left: 50px;
+}
+
+.about-wrapper .skills ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-wrapper .skills ul li {
+  border: 2px solid #2d2d2d;
+  width: max-content;
+  padding: 3px 10px;
+  border-radius: 12px;
+  margin: 7px;
+  margin-left: 0;
+  font-weight: 500;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+      cursor: pointer;
+}
+
+.about-wrapper .skills ul li:hover {
+  transform: scale(1.1);
+  color: white;
+  background-color: #034957; /* Change the color to your desired hover color */
+}

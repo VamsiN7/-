@@ -11,6 +11,8 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 </head>
 
 <body class="is-preload">
@@ -19,9 +21,9 @@
 	<header id="header">
 		<div class="inner">
 			<a href="#" class="image avatar"><img src="images/Vamsi.jpg" alt="" /></a>
-			<h1><strong>I am Vamsi</strong>, a software developer<br />
-				and a graduate student at Northeastern University, Boston<br />
-				<!-- crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1> -->
+			<h1><strong>Hey !! I am Vamsi 👋 an ever curious
+				developer and a debugger </strong><br />
+				<button class="resumeBtn" onclick="openPdf()" style="background-color: #acbac7; color: black; cursor: pointer; border: none; border-radius: 5px; padding: 10px 20px;">My Resume</button>
 		</div>
 	</header>
 
@@ -29,10 +31,24 @@
 	<div id="main">
 
 		<!-- One -->
-		<section id="one">
+		<!-- <section id="one">
 			<header class="major">
 				<h2>A passionate software engineer at heart</h2>
 			</header>
+			<div class="skills col">
+				<h2>My Skills</h2>
+				<ul>
+				  <li>HTML</li>
+				  <li>CSS</li>
+				  <li>JavaScript</li> 
+				  <li>React</li>
+				  <li>Tailwind</li>
+				  <li>Mongo DB</li>
+				  <li>Firebase</li>
+				  <li>AWS</li>
+				  <li>Google Cloud</li>
+				</ul>
+			  </div>
 			<p>With a Master's degree in Computer Software Engineering from Northeastern University and a Bachelor's
 				from Amrita Vishwa Vidyapeetham, my academic journey has equipped me with a strong foundation in
 				Computer Science. <br></br>At Tata Consultancy Services - Digital (Western Union Financial Services
@@ -44,10 +60,52 @@
 				I am an ambitious individual who is always looking to upskill and grow in my career. I am confident that
 				my skills, experience, and passion for technology will enable me to make a valuable contribution to any
 				organization I work with.</p>
-			<!-- <ul class="actions">
+			<ul class="actions">
 							<li><a href="#" class="button">Learn More</a></li>
-						</ul> -->
-		</section>
+						</ul>
+		</section> -->
+
+		<div class="about">
+			<div class="about-wrapper">
+			  <div class="col">
+				<h2>My Career So Far</h2>
+				<!-- <p>
+				<ul>
+				  <li>> SE Graduate Student at Northeastern University</li>
+				  <li>> 3 years of UI Developer at ABB Global Industries</li>
+				  <li>> Bachelors in Computer Science Engineering from India</li>
+				  <li>> Rotaract club Founder & President</li>
+				</ul>
+				</p> -->
+				<p>With a Master's degree in Computer Software Engineering from Northeastern University and a Bachelor's
+					from Amrita Vishwa Vidyapeetham, my academic journey has equipped me with a strong foundation in
+					Computer Science. <br></br>At Tata Consultancy Services - Digital (Western Union Financial Services
+					Inc), I took on the challenge of migrating a money transfer digital platform from an .NET legacy system
+					to modern Greenfield system, showcasing my ability to innovate and adapt</p>
+			  </div>
+			  <div class="skills col">
+				<h2>My Skills</h2>
+				<ul style="list-style-type: none;">
+				  <li>Java</li>
+				  <li>Python</li>
+				  <li>Spring</li>
+				  <li>Microservices</li>
+				  <li>AWS</li>
+				  <li>ReactJS</li>
+				  <li>NodeJS</li>
+				  <li>ExpressJS</li>
+				  <li>HTML</li>
+				  <li>CSS/SCSS</li>
+				  <li>JavaScript</li>
+				  <li>ReactJS</li>
+				  <li>MySQL</li>
+				  <li>Mongo DB</li>
+				  <li>PostgreSQL</li>
+		
+				</ul>
+			  </div>
+			</div>
+		  </div>
 
 		<!-- Two -->
 		<section id="two">
@@ -55,83 +113,107 @@
 			<div class="row">
 				<article class="col-6 col-12-xsmall work-item">
 					<a href="images/fulls/tcs.jpg" class="image fit thumb"><img src="images/fulls/tcs.jpg" width="180"
-							height="197 alt="" /></a>
-								<h3>TCS - Western Union</h3>
-								<p> A Progressive Web App for disaster response using React, Redux, Express,js, Node.js, and MongoDB
-								</p>
-							</article>
-							<article class=" col-6 col-12-xsmall work-item">
-						<a href="images/fulls/ResQReach.gif" class="image fit thumb"><img src="images/thumbs/ResQ.jpg"
-								width="180" height="197 alt="" /></a>
-								<h3>ResQReach</h3>
-								<p> A Progressive Web App for disaster response using React, Redux, Express,js, Node.js, and MongoDB
-								</p>
-							</article>
-							<article class=" col-6 col-12-xsmall work-item">
-							<a href="images/fulls/03.jpg" class="image fit thumb"><img
-									src="images/thumbs/Trip_Tracker.jpg" width="180" height="197 alt="" /></a>
-								<h3>Trip Tracker</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class=" col-6 col-12-xsmall work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img
-										src="images/thumbs/Kubernetes.jpg" width="180" height="197 alt="" /></a>
-								<h3>WebScrapeServe</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class=" col-6 col-12-xsmall work-item">
-									<a href="https://github.com/VamsiN7/WebScrapeServe" class="image fit thumb">
-										<img src="images/thumbs/Kubernetes.jpg" width="180" height="197" alt="" />
-									</a>
-									<h3>TCS - Western Union</h3>
-									<p> A Progressive Web App for disaster response using React, Redux, Express.js,
-										Node.js, and MongoDB</p>
+							height="197" alt="" /></a>
+					<h3>TCS - Western Union</h3>
+					<p> Software Engineer ( August 2020 - August 2023 )
+					</p>
 				</article>
-				<!-- Repeat for other projects, replacing the href with the correct repository URL -->
+				<article class=" col-6 col-12-xsmall work-item">
+					<a href="images/thumbs/ResQ.jpg" class="image fit thumb"><img src="images/thumbs/ResQ.jpg" width="180"
+							height="197" alt="" /></a>
+					<h3>ResQReach</h3>
+					<p>A Progressive Web App for disaster response using React, Redux, Express,js, Node.js, and MongoDB &nbsp;
+						<!-- &nbsp;<a href="https://github.com/VamsiN7" class="icon brands fa-github"> Git Repo</a> -->
+					</p>
+				</article>
+				<article class=" col-6 col-12-xsmall work-item">
+					<a href="images/thumbs/Trip_Tracker.jpg" class="image fit thumb"><img src="images/thumbs/Trip_Tracker.jpg"
+							width="180" height="197" alt="" /></a>
+					<h3>Trip Tracker</h3>
+					<p>A Tour booking web application using JavaScript, HTML/CSS, and PHP&nbsp;
+						<!-- &nbsp;<a href="https://github.com/VamsiN7" class="icon brands fa-github"> Git Repo</a> -->
+					</p>
+		
+				</article>
+				<article class=" col-6 col-12-xsmall work-item">
+					<a href="images/thumbs/Kubernetes.jpg" class="image fit thumb"><img src="images/thumbs/Kubernetes.jpg"
+							width="180" height="197" alt="" /></a>
+					<h3>WebScrapeServe</h3>
+					<p>A Scalable Web Scraping API on Kubernetes using Python and BeautifulSoup! &nbsp;
+						<!-- &nbsp;<a href="https://github.com/VamsiN7" class="icon brands fa-github"> Git Repo</a> -->
+					</p>
+		
+				</article>
+				<article class=" col-6 col-12-xsmall work-item">
+					<a href="images/thumbs/CMS.jpg" class="image fit thumb">
+						<img src="images/thumbs/CMS.jpg" width="180" height="197" alt="" />
+					</a>
+					<h3>Cafe Management System</h3>
+					<p>A Java Swing Application to streamline and automate the operations of a cafe&nbsp;
+						<!-- &nbsp;<a href="https://github.com/VamsiN7" class="icon brands fa-github"> Git Repo</a> -->
+					</p>
+		
+				</article>
 				<article class="col-6 col-12-xsmall work-item">
 					<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/News.jpg" width="180"
 							height="197" alt="" /></a>
 					<h3>News now</h3>
-					<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+					<p>A News feed android app which gives a user regularly-updated news from the internet related to a particular topic, person, or location. &nbsp;
+						<!-- &nbsp;<a href="https://github.com/VamsiN7" class="icon brands fa-github"> Git Repo</a> -->
+					</p>
+		
 				</article>
 				<article class="col-6 col-12-xsmall work-item">
 					<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/ML.jpg" alt="" /></a>
-					<h3>Machine Learning Thesis</h3>
-					<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+					<h3>Detection of Malware Applications using Machine Learning</h3>
+					<p>Thesis on processing an application, extracting its features and classify whether the application is Malware or Benign using machine learning techniques&nbsp;
+						<!-- &nbsp;<a href="https://github.com/VamsiN7" class="icon brands fa-github"> Git Repo</a> -->
+					</p>
+		
+				</article>
+				<article class=" col-6 col-12-xsmall work-item">
+					<a href="images/thumbs/Leetcode.jpg" class="image fit thumb">
+						<img src="images/thumbs/Leetcode.jpg" width="180" height="197" alt="" />
+					</a>
+					<h3>Problem Solving</h3>
+					<p>A List of all the Leetcode problems and their solutions I've solved till date
+						&nbsp;<a href="https://github.com/VamsiN7/Leetcode" class="icon brands fa-github"> Git Repo</a>
+					</p>
+		
 				</article>
 			</div>
-			<ul class="actions">
-				<li><a href="#" class="button">Full Portfolio</a></li>
-			</ul>
+			<!-- <ul class="actions">
+						<li><a href="#" class="button">Full Portfolio</a></li>
+					</ul> -->
 		</section>
 
 		<section id="two" class="wrapper alt style1">
 			<!-- <h2>Vitae phasellus</h2> -->
 			<div class="row">
 				<article class="col-6 col-12-xsmall work-item">
-					<a href="images/fulls/Recommendation.jpg" class="image fit thumb"><img
-							src="images/fulls/Recommendation.jpg" alt="" /></a>
 					<h3>Recommendation</h3>
+					<a href="images/fulls/Recommendation.jpg" class="image fit thumb"><img
+							src="images/fulls/Recommendation.jpg" width="348" height="152" alt="" /></a>
 					<!-- <p> A Progressive Web App for disaster response using React, Redux, Express,js, Node.js, and MongoDB -->
 					</p>
 				</article>
 				<article class="col-6 col-12-xsmall work-item">
+					<h3>Certification</h3>
 					<a href="images/fulls/Certification.jpg" class="image fit thumb"><img
 							src="images/fulls/Certification.jpg" alt="" /></a>
-					<h3>Certification</h3>
 					<!-- <p> A Progressive Web App for disaster response using React, Redux, Express,js, Node.js, and MongoDB -->
 					</p>
 				</article>
 				<article class="col-6 col-12-xsmall work-item">
+					<h3>Top skills</h3>
 					<a href="images/fulls/Top skills.jpg" class="image fit thumb"><img src="images/fulls/Top skills.jpg"
 							alt="" /></a>
-					<h3>Top skills</h3>
 					<!-- <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
 				</article>
 				<article class="col-6 col-12-xsmall work-item">
+					<h3>Awards</h3>
 					<a href="images/fulls/Awards.jpeg" class="image fit thumb"><img src="images/fulls/Awards.jpeg"
 							alt="" /></a>
-					<h3>Awards</h3>
 					<!-- <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
 				</article>
 				<!-- <ul class="actions">
@@ -139,12 +221,12 @@
 							</ul> -->
 			</div>
 		</section>
-
-		<!-- Three -->
+<!-- 
+		Three
 		<section id="three">
 			<h2>Get In Touch</h2>
 			<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu
-				lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+				lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p> -->
 			<!-- <div class="row">
 							<div class="col-8 col-12-small">
 								<form method="post" action="#">
@@ -177,12 +259,12 @@
 								</ul>
 							</div>
 						</div> -->
-			<a href="images/thumbs/Vamsi_Naradasu_Resume.pdf" download>Resume</a>
-		</section>
+			<!-- <a href="images/thumbs/Vamsi_Naradasu_Resume.pdf" download>Resume</a>
+		</section> -->
 
 
 
-		<section id="four">
+		<!-- <section id="four">
 			<h2>Elements</h2>
 
 			<section>
@@ -542,14 +624,15 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		</section>
 
 
-	</div>
+	</div> -->
 
 	<!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
 			<ul class="icons">
-				<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-				<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				<li><a href="https://github.com/VamsiN7" class="icon brands fa-github"></a></li>
+				<li><a href="#contact" onclick="redirectToEmail()" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				<li><a href="https://www.linkedin.com/in/vamsin7" class="fab fa-linkedin" style="font-size: 25px;"></a></li>
 			</ul>
 			<ul class="copyright">
 				<li>&copy; Vamsi Naradasu</li>
@@ -565,6 +648,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 
+	<script>
+		function openPdf() {
+		  window.open('./assets/Vamsi_Naradasu_Resume.pdf', '_blank');
+		}
+		function redirectToEmail() {
+		  window.location.href = "mailto:naradasu.v@northeastern.edu";
+		}
+	  </script>
 </body>
 
 </html>
