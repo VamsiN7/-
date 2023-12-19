@@ -745,25 +745,31 @@
 				showSlide(currentSlide + n);
 			}
 			function toggleReadMore() {
-    var listItems = document.querySelectorAll('#workExperienceList li');
-    var btn = document.getElementById('readMoreBtn');
+				var listItems = document.querySelectorAll('#workExperienceList li');
+				var btn = document.getElementById('readMoreBtn');
 
-    var isExpanded = btn.innerText === 'Read Less';
-    listItems.forEach(function(item, index) {
-        if (index >= 5) { // Hide or show items beyond the third
-            item.style.display = isExpanded ? 'none' : 'list-item';
-        }
-    });
+				var isExpanded = btn.innerText === 'Read More'; // Check if it's in 'Read More' state
+				listItems.forEach(function(item, index) {
+					if (index >= 4) { // Adjust index as needed
+						item.style.display = isExpanded ? 'list-item' : 'none';
+					}
+				});
 
-    btn.innerText = isExpanded ? 'Read More' : 'Read Less';
-}
+				btn.innerText = isExpanded ? 'Read Less' : 'Read More';
+			}
 
-// Initial setup to hide items when the page loads
-document.addEventListener('DOMContentLoaded', () => {
-    toggleReadMore();
-});
+			// Initial setup to hide extra items when the page loads
+			function initializeReadMore() {
+				var listItems = document.querySelectorAll('#workExperienceList li');
+				listItems.forEach(function(item, index) {
+					if (index >= 4) { // Adjust index as needed
+						item.style.display = 'none';
+					}
+				});
+				document.getElementById('readMoreBtn').innerText = 'Read More';
+			}
 
-
+			document.addEventListener('DOMContentLoaded', initializeReadMore);
 		</script>
 </body>
 
