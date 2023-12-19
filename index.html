@@ -22,8 +22,8 @@
 		<div class="inner">
 			<a href="#" class="image avatar"><img src="images/Vamsi.jpg" alt="" /></a>
 			<h1><strong>Hey !! I am Vamsi 👋 an ever curious
-				developer and a debugger </strong><br />
-				<button class="resumeBtn" onclick="openPdf()" style="background-color: #acbac7; color: black; cursor: pointer; border: none; border-radius: 5px; padding: 10px 20px;">My Resume</button>
+					developer and a debugger </strong><br /><br><br>
+
 		</div>
 	</header>
 
@@ -67,82 +67,166 @@
 
 		<div class="about">
 			<div class="about-wrapper">
-			  <div class="col">
-				<h2>My Career So Far</h2>
-				<!-- <p>
-				<ul>
-				  <li>> SE Graduate Student at Northeastern University</li>
-				  <li>> 3 years of UI Developer at ABB Global Industries</li>
-				  <li>> Bachelors in Computer Science Engineering from India</li>
-				  <li>> Rotaract club Founder & President</li>
-				</ul>
-				</p> -->
-				<p>With a Master's degree in Computer Software Engineering from Northeastern University and a Bachelor's
-					from Amrita Vishwa Vidyapeetham, my academic journey has equipped me with a strong foundation in
-					Computer Science. <br></br>At Tata Consultancy Services - Digital (Western Union Financial Services
-					Inc), I took on the challenge of migrating a money transfer digital platform from an .NET legacy system
-					to modern Greenfield system, showcasing my ability to innovate and adapt</p>
-			  </div>
-			  <div class="skills col">
-				<h2>My Skills</h2>
-				<ul style="list-style-type: none;">
-				  <li>Java</li>
-				  <li>Python</li>
-				  <li>Spring</li>
-				  <li>Microservices</li>
-				  <li>AWS</li>
-				  <li>ReactJS</li>
-				  <li>NodeJS</li>
-				  <li>ExpressJS</li>
-				  <li>HTML</li>
-				  <li>CSS/SCSS</li>
-				  <li>JavaScript</li>
-				  <li>ReactJS</li>
-				  <li>MySQL</li>
-				  <li>Mongo DB</li>
-				  <li>PostgreSQL</li>
-		
-				</ul>
-			  </div>
+				<div class="col">
+					<h2>My Career So Far</h2>
+					<p>With a Master's degree in Computer Software Engineering from Northeastern University and a
+						Bachelor's
+						from Amrita Vishwa Vidyapeetham, my academic journey has equipped me with a strong foundation in
+						Computer Science. <br></br>At Tata Consultancy Services - Digital (Western Union Financial
+						Services
+						Inc), I took on the challenge of migrating a money transfer digital platform from an .NET legacy
+						system
+						to modern Greenfield system, showcasing my ability to innovate and adapt
+					</p>
+				</div>
+				<div class="skills col">
+					<h2>My Skills</h2>
+					<ul style="list-style-type: none;">
+						<li>Java</li>
+						<li>Python</li>
+						<li>SpringBoot</li>
+						<li>Microservices</li>
+						<li>REST APIs</li>
+						<li>AWS</li>
+						<li>ReactJS</li>
+						<li>NodeJS</li>
+						<li>ExpressJS</li>
+						<li>HTML</li>
+						<li>CSS/SCSS</li>
+						<li>JavaScript</li>
+						<li>MySQL</li>
+						<li>Mongo DB</li>
+						<li>PostgreSQL</li>
+
+					</ul>
+				</div>
 			</div>
-		  </div>
+
+		</div>
+		<div style="margin-left: 10%;">
+			<a href="#" class="button" onclick="openPdf()">Resume</a>
+			<a href="#work" class="button">Work Experience</a>
+			<a href="#two" class="button">Projects</a>
+			<a href="#" class="button" onclick="openCMPdf()">Work Sample</a>
+			<!-- <a href="#section3" class="button">Academics</a> -->
+		</div>
+		<section id="work">
+			<h2>Work Experience</h2>
+			<sub>click or slide to know more</sub>
+			<!-- <h3>Click to Expand</h3> -->
+		</section><br>
+		<div class="container">
+			<div id="slider">
+				<div class="slide" style="display: block;">
+					<img src="images/fulls/tcs.jpg" width="217" height="197" alt="Image 1">
+				</div>
+				<div class="slide">
+					<img src="images/fulls/tcs_master.jpg" alt="Image 3" onclick="openCMPdf()">
+				</div>
+				<div class="slide">
+					<img src="images/fulls/Recommendation.jpg" alt="Image 2">
+				</div>
+				<div class="slide">
+					<img src="images/fulls/Awards.jpeg" alt="Image 3">
+				</div>
+				<div class="slide">
+					<img src="images/fulls/tcs_master.jpg" alt="Image 3">
+				</div>
+				<a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+				<a class="next" onclick="changeSlide(1)">&#10095;</a>
+				<!-- Add more slides as needed -->
+
+			</div>
+			<br>
+			<div class="text-container">
+				<!-- <h2>abbbbx</h2> -->
+				<ul id="workExperienceList">
+					<br><li><strong>Modernized and Migrated</strong> money transfer digital platform from a legacy system to
+						a <strong>Greenfield</strong> system. Applied <strong>scalable</strong> enterprise design
+						principles and <strong>microservices architecture</strong>, enhancing software development
+						lifecycle from design to testing.</li>
+					<li><strong>Designed</strong> adapter functionalities and implemented <strong>RESTful APIs</strong>
+						using <strong>Spring Boot</strong> and deployed <strong>Spring-Boot</strong> based microservices
+						to <strong>AWS EC2</strong> instances.</li>
+					<li><strong>Engineered RESTful APIs</strong> using <strong>Spring Boot</strong> to establish robust
+						adapter functionalities. Streamlined deployment of microservices on <strong>AWS EC2</strong>
+						instances, optimizing cloud-based operations.</li>
+					<li><strong>Pioneered the integration</strong> of <strong>WebSockets</strong>, enabling real-time,
+							bidirectional communication and improving data flow efficiency.</li>
+					<li><strong>Strategically implemented Apache Kafka</strong>, establishing a robust streaming
+							platform to enhance our system’s real-time data processing and event-driven capabilities.</li>
+					<li><strong>Developed scalable</strong> solutions across for Western Union's point of sale gateway components, leveraging
+						<strong>microservices</strong>, <strong>REST frameworks</strong>, and <strong>APIs</strong> for
+						enhanced efficiency.</li>
+					<li><strong>Transformed legacy code</strong> implementations to ensure high-efficiency data
+						processing. Managed downstream services handling over <strong>10M transactions daily</strong>.
+					</li>
+					<li><strong>Led the orchestration</strong> of 6 microservices, ensuring high-capacity data
+						processing for systems with <strong>2 million daily users</strong>.</li>
+					<li><strong>Successfully transitioned</strong> 100% of traffic from legacy systems to cloud
+						infrastructure, optimizing production efficiency for adapter components.</li>
+					<li><strong>Leveraged J2EE design patterns</strong>, including <strong>Model-View-Controller
+							(MVC)</strong>, <strong>Plain Old Java Object (POJO)</strong>, and <strong>Data Access
+							Object (DAO)</strong> achieving a 70% increase in application scalability and enhancing
+						microservices modularity.</li>
+					<li><strong>Demonstrated proficiency</strong> in using <strong>Swagger</strong> for comprehensive
+						API documentation.</li>
+					<li><strong>Enabled fully automated</strong>, integrated applications, reducing operating costs by
+						$3000 per process and accelerating processing through automation.</li>
+					<li><strong>Configured circuit breaker</strong> thresholds and timeouts, improving system stability
+						and response times by 90% during service failures.</li>
+					<li><strong>Utilized Mockito</strong> for rigorous unit and integration testing in a UAT
+						environment, employing <strong>Test Driven Development (TDD)</strong> methodologies.</li>
+					<li><strong>Implemented Log4j</strong> for logging functionality and leveraged <strong>AWS
+							CloudWatch</strong> for detailed log monitoring and analysis.</li>
+					<li><strong>Conducted load testing</strong> on EC2 applications, successfully managing an average of
+						<strong>5 million concurrent transactions</strong>.</li>
+					<li><strong>Delivered strategies</strong> to eliminate bottlenecks and dependencies, transitioning
+						the client’s tech landscape from a legacy <strong>.NET platform</strong>.</li>
+					<li><strong>Maintained a 99.9% application uptime</strong> by monitoring real-time application
+						metrics, including response time and error rate, via <strong>Dynatrace</strong>.</li>
+					<li><strong>Collaborated with cross-functional teams</strong> for code reviews, performance issue
+						analysis, and documentation in <strong>Confluence</strong>.</li>
+					<li><strong>Demonstrated problem-solving skills</strong> by promptly addressing production-level
+						issues, efficiently utilizing <strong>JIRA</strong> for issue tracking and management.</li>
+					<li><strong>Led fast-paced, cross-functional collaboration</strong> with client leadership to
+						enhance the design of a banking application system.</li>
+						<button id="readMoreBtn" onclick="toggleReadMore()" style="position: relative; align-content: center;" >Read More</button>
+				</ul>
+			</div>
+
+		</div>
 
 		<!-- Two -->
 		<section id="two">
-			<h2>Recent Work</h2>
-			<div class="row">
+			<h2>Projects</h2>
+			<div class="grid-container">
 				<article class="col-6 col-12-xsmall work-item">
-					<a href="images/fulls/tcs.jpg" class="image fit thumb"><img src="images/fulls/tcs.jpg" width="180"
-							height="197" alt="" /></a>
-					<h3>TCS - Western Union</h3>
-					<p> Software Engineer ( August 2020 - August 2023 )
-					</p>
-				</article>
-				<article class=" col-6 col-12-xsmall work-item">
-					<a href="images/thumbs/ResQ.jpg" class="image fit thumb"><img src="images/thumbs/ResQ.jpg" width="180"
-							height="197" alt="" /></a>
-					<h3>ResQReach</h3>
-					<p>A Progressive Web App for disaster response using React, Redux, Express,js, Node.js, and MongoDB &nbsp;
-						<!-- &nbsp;<a href="https://github.com/VamsiN7" class="icon brands fa-github"> Git Repo</a> -->
-					</p>
-				</article>
-				<article class=" col-6 col-12-xsmall work-item">
-					<a href="images/thumbs/Trip_Tracker.jpg" class="image fit thumb"><img src="images/thumbs/Trip_Tracker.jpg"
+					<a href="images/thumbs/ResQ.jpg" class="image fit thumb"><img src="images/thumbs/ResQ.jpg"
 							width="180" height="197" alt="" /></a>
+					<h3>ResQReach</h3>
+					<p>A Progressive Web App for disaster response using React, Redux, Express,js, Node.js, and MongoDB
+						&nbsp;
+						&nbsp;<a href="https://github.com/VamsiN7" class="icon brands fa-github"> Git Repo</a>
+					</p>
+				</article>
+				<article class=" col-6 col-12-xsmall work-item">
+					<a href="images/thumbs/Trip_Tracker.jpg" class="image fit thumb"><img
+							src="images/thumbs/Trip_Tracker.jpg" width="180" height="197" alt="" /></a>
 					<h3>Trip Tracker</h3>
 					<p>A Tour booking web application using JavaScript, HTML/CSS, and PHP&nbsp;
 						<!-- &nbsp;<a href="https://github.com/VamsiN7" class="icon brands fa-github"> Git Repo</a> -->
 					</p>
-		
+
 				</article>
 				<article class=" col-6 col-12-xsmall work-item">
-					<a href="images/thumbs/Kubernetes.jpg" class="image fit thumb"><img src="images/thumbs/Kubernetes.jpg"
-							width="180" height="197" alt="" /></a>
+					<a href="images/thumbs/Kubernetes.jpg" class="image fit thumb"><img
+							src="images/thumbs/Kubernetes.jpg" width="180" height="197" alt="" /></a>
 					<h3>WebScrapeServe</h3>
 					<p>A Scalable Web Scraping API on Kubernetes using Python and BeautifulSoup! &nbsp;
-						<!-- &nbsp;<a href="https://github.com/VamsiN7" class="icon brands fa-github"> Git Repo</a> -->
+						&nbsp;<a href="https://github.com/VamsiN7/WebScrapeServe" class="icon brands fa-github"> Git Repo</a>
 					</p>
-		
+
 				</article>
 				<article class=" col-6 col-12-xsmall work-item">
 					<a href="images/thumbs/CMS.jpg" class="image fit thumb">
@@ -150,26 +234,28 @@
 					</a>
 					<h3>Cafe Management System</h3>
 					<p>A Java Swing Application to streamline and automate the operations of a cafe&nbsp;
-						<!-- &nbsp;<a href="https://github.com/VamsiN7" class="icon brands fa-github"> Git Repo</a> -->
+						&nbsp;<a href="https://github.com/VamsiN7/Cafe-Management-System" class="icon brands fa-github"> Git Repo</a>
 					</p>
-		
+
 				</article>
 				<article class="col-6 col-12-xsmall work-item">
 					<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/News.jpg" width="180"
 							height="197" alt="" /></a>
 					<h3>News now</h3>
-					<p>A News feed android app which gives a user regularly-updated news from the internet related to a particular topic, person, or location. &nbsp;
+					<p>A News feed android app which gives a user regularly-updated news from the internet related to a
+						particular topic, person, or location. &nbsp;
 						<!-- &nbsp;<a href="https://github.com/VamsiN7" class="icon brands fa-github"> Git Repo</a> -->
 					</p>
-		
+
 				</article>
 				<article class="col-6 col-12-xsmall work-item">
 					<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/ML.jpg" alt="" /></a>
 					<h3>Detection of Malware Applications using Machine Learning</h3>
-					<p>Thesis on processing an application, extracting its features and classify whether the application is Malware or Benign using machine learning techniques&nbsp;
+					<p>Thesis on processing an application, extracting its features and classify whether the application
+						is Malware or Benign using machine learning techniques&nbsp;
 						<!-- &nbsp;<a href="https://github.com/VamsiN7" class="icon brands fa-github"> Git Repo</a> -->
 					</p>
-		
+
 				</article>
 				<article class=" col-6 col-12-xsmall work-item">
 					<a href="images/thumbs/Leetcode.jpg" class="image fit thumb">
@@ -179,49 +265,40 @@
 					<p>A List of all the Leetcode problems and their solutions I've solved till date
 						&nbsp;<a href="https://github.com/VamsiN7/Leetcode" class="icon brands fa-github"> Git Repo</a>
 					</p>
-		
+
 				</article>
 			</div>
-			<!-- <ul class="actions">
-						<li><a href="#" class="button">Full Portfolio</a></li>
-					</ul> -->
 		</section>
 
 		<section id="two" class="wrapper alt style1">
 			<!-- <h2>Vitae phasellus</h2> -->
 			<div class="row">
-				<article class="col-6 col-12-xsmall work-item">
+				<article class="col-6 col-12-xsmall work-itm">
 					<h3>Recommendation</h3>
 					<a href="images/fulls/Recommendation.jpg" class="image fit thumb"><img
 							src="images/fulls/Recommendation.jpg" width="348" height="152" alt="" /></a>
-					<!-- <p> A Progressive Web App for disaster response using React, Redux, Express,js, Node.js, and MongoDB -->
 					</p>
 				</article>
-				<article class="col-6 col-12-xsmall work-item">
+				<article class="col-6 col-12-xsmall work-itm">
 					<h3>Certification</h3>
 					<a href="images/fulls/Certification.jpg" class="image fit thumb"><img
 							src="images/fulls/Certification.jpg" alt="" /></a>
-					<!-- <p> A Progressive Web App for disaster response using React, Redux, Express,js, Node.js, and MongoDB -->
 					</p>
 				</article>
-				<article class="col-6 col-12-xsmall work-item">
+				<article class="col-6 col-12-xsmall work-itm">
 					<h3>Awards</h3>
 					<a href="images/fulls/Awards.jpeg" class="image fit thumb"><img src="images/fulls/Awards.jpeg"
 							alt="" /></a>
-					<!-- <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
 				</article>
-				<!-- <ul class="actions">
-								<li><a href="#" class="button">Browse All</a></li>
-							</ul> -->
 			</div>
 		</section>
-<!-- 
+		<!-- 
 		Three
 		<section id="three">
 			<h2>Get In Touch</h2>
 			<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu
 				lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p> -->
-			<!-- <div class="row">
+		<!-- <div class="row">
 							<div class="col-8 col-12-small">
 								<form method="post" action="#">
 									<div class="row gtr-uniform gtr-50">
@@ -253,7 +330,7 @@
 								</ul>
 							</div>
 						</div> -->
-			<!-- <a href="images/thumbs/Vamsi_Naradasu_Resume.pdf" download>Resume</a>
+		<!-- <a href="images/thumbs/Vamsi_Naradasu_Resume.pdf" download>Resume</a>
 		</section> -->
 
 
@@ -298,358 +375,396 @@
 				<h5>Preformatted</h5>
 				<pre><code>i = 0;
 
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
+				while (!deck.isInOrder()) {
+				print 'Iteration ' + i;
+				deck.shuffle();
+				i++;
+				}
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-			</section>
+				print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+				</section>
 
-			<section>
-				<h4>Lists</h4>
-				<div class="row">
-					<div class="col-6 col-12-xsmall">
-						<h5>Unordered</h5>
-						<ul>
-							<li>Dolor pulvinar etiam magna etiam.</li>
-							<li>Sagittis adipiscing lorem eleifend.</li>
-							<li>Felis enim feugiat dolore viverra.</li>
-						</ul>
-						<h5>Alternate</h5>
-						<ul class="alt">
-							<li>Dolor pulvinar etiam magna etiam.</li>
-							<li>Sagittis adipiscing lorem eleifend.</li>
-							<li>Felis enim feugiat dolore viverra.</li>
-						</ul>
-					</div>
-					<div class="col-6 col-12-xsmall">
-						<h5>Ordered</h5>
-						<ol>
-							<li>Dolor pulvinar etiam magna etiam.</li>
-							<li>Etiam vel felis at lorem sed viverra.</li>
-							<li>Felis enim feugiat dolore viverra.</li>
-							<li>Dolor pulvinar etiam magna etiam.</li>
-							<li>Etiam vel felis at lorem sed viverra.</li>
-							<li>Felis enim feugiat dolore viverra.</li>
-						</ol>
-						<h5>Icons</h5>
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
-							</li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a>
-							</li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-						</ul>
-					</div>
-				</div>
-				<h5>Actions</h5>
-				<ul class="actions">
-					<li><a href="#" class="button primary">Default</a></li>
-					<li><a href="#" class="button">Default</a></li>
-				</ul>
-				<ul class="actions small">
-					<li><a href="#" class="button primary small">Small</a></li>
-					<li><a href="#" class="button small">Small</a></li>
-				</ul>
-				<div class="row">
-					<div class="col-6 col-12-small">
-						<ul class="actions stacked">
-							<li><a href="#" class="button primary">Default</a></li>
-							<li><a href="#" class="button">Default</a></li>
-						</ul>
-					</div>
-					<div class="col-6 col-12-small">
-						<ul class="actions stacked">
-							<li><a href="#" class="button primary small">Small</a></li>
-							<li><a href="#" class="button small">Small</a></li>
-						</ul>
-					</div>
-					<div class="col-6 col-12-small">
-						<ul class="actions stacked">
-							<li><a href="#" class="button primary fit">Default</a></li>
-							<li><a href="#" class="button fit">Default</a></li>
-						</ul>
-					</div>
-					<div class="col-6 col-12-small">
-						<ul class="actions stacked">
-							<li><a href="#" class="button primary small fit">Small</a></li>
-							<li><a href="#" class="button small fit">Small</a></li>
-						</ul>
-					</div>
-				</div>
-			</section>
-
-			<section>
-				<h4>Table</h4>
-				<h5>Default</h5>
-				<div class="table-wrapper">
-					<table>
-						<thead>
-							<tr>
-								<th>Name</th>
-								<th>Description</th>
-								<th>Price</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Item One</td>
-								<td>Ante turpis integer aliquet porttitor.</td>
-								<td>29.99</td>
-							</tr>
-							<tr>
-								<td>Item Two</td>
-								<td>Vis ac commodo adipiscing arcu aliquet.</td>
-								<td>19.99</td>
-							</tr>
-							<tr>
-								<td>Item Three</td>
-								<td> Morbi faucibus arcu accumsan lorem.</td>
-								<td>29.99</td>
-							</tr>
-							<tr>
-								<td>Item Four</td>
-								<td>Vitae integer tempus condimentum.</td>
-								<td>19.99</td>
-							</tr>
-							<tr>
-								<td>Item Five</td>
-								<td>Ante turpis integer aliquet porttitor.</td>
-								<td>29.99</td>
-							</tr>
-						</tbody>
-						<tfoot>
-							<tr>
-								<td colspan="2"></td>
-								<td>100.00</td>
-							</tr>
-						</tfoot>
-					</table>
-				</div>
-
-				<h5>Alternate</h5>
-				<div class="table-wrapper">
-					<table class="alt">
-						<thead>
-							<tr>
-								<th>Name</th>
-								<th>Description</th>
-								<th>Price</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Item One</td>
-								<td>Ante turpis integer aliquet porttitor.</td>
-								<td>29.99</td>
-							</tr>
-							<tr>
-								<td>Item Two</td>
-								<td>Vis ac commodo adipiscing arcu aliquet.</td>
-								<td>19.99</td>
-							</tr>
-							<tr>
-								<td>Item Three</td>
-								<td> Morbi faucibus arcu accumsan lorem.</td>
-								<td>29.99</td>
-							</tr>
-							<tr>
-								<td>Item Four</td>
-								<td>Vitae integer tempus condimentum.</td>
-								<td>19.99</td>
-							</tr>
-							<tr>
-								<td>Item Five</td>
-								<td>Ante turpis integer aliquet porttitor.</td>
-								<td>29.99</td>
-							</tr>
-						</tbody>
-						<tfoot>
-							<tr>
-								<td colspan="2"></td>
-								<td>100.00</td>
-							</tr>
-						</tfoot>
-					</table>
-				</div>
-			</section>
-
-			<section>
-				<h4>Buttons</h4>
-				<ul class="actions">
-					<li><a href="#" class="button primary">Primary</a></li>
-					<li><a href="#" class="button">Default</a></li>
-				</ul>
-				<ul class="actions">
-					<li><a href="#" class="button large">Large</a></li>
-					<li><a href="#" class="button">Default</a></li>
-					<li><a href="#" class="button small">Small</a></li>
-				</ul>
-				<ul class="actions fit">
-					<li><a href="#" class="button primary fit">Fit</a></li>
-					<li><a href="#" class="button fit">Fit</a></li>
-				</ul>
-				<ul class="actions fit small">
-					<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-					<li><a href="#" class="button fit small">Fit + Small</a></li>
-				</ul>
-				<ul class="actions">
-					<li><a href="/downloads/Vamsi_Naradasu_Resume.pdf" download="Vamsi_Naradasu_Resume">
-							<button>Download PDF</button>
-						</a></li>
-					<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-				</ul>
-				<ul class="actions">
-					<li><span class="button primary disabled">Primary</span></li>
-					<li><span class="button disabled">Default</span></li>
-				</ul>
-			</section>
-
-			<section>
-				<h4>Form</h4>
-				<form method="post" action="#">
-					<div class="row gtr-uniform gtr-50">
+				<section>
+					<h4>Lists</h4>
+					<div class="row">
 						<div class="col-6 col-12-xsmall">
-							<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+							<h5>Unordered</h5>
+							<ul>
+								<li>Dolor pulvinar etiam magna etiam.</li>
+								<li>Sagittis adipiscing lorem eleifend.</li>
+								<li>Felis enim feugiat dolore viverra.</li>
+							</ul>
+							<h5>Alternate</h5>
+							<ul class="alt">
+								<li>Dolor pulvinar etiam magna etiam.</li>
+								<li>Sagittis adipiscing lorem eleifend.</li>
+								<li>Felis enim feugiat dolore viverra.</li>
+							</ul>
 						</div>
 						<div class="col-6 col-12-xsmall">
-							<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-						</div>
-						<div class="col-12">
-							<select name="demo-category" id="demo-category">
-								<option value="">- Category -</option>
-								<option value="1">Manufacturing</option>
-								<option value="1">Shipping</option>
-								<option value="1">Administration</option>
-								<option value="1">Human Resources</option>
-							</select>
-						</div>
-						<div class="col-4 col-12-small">
-							<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-							<label for="demo-priority-low">Low Priority</label>
-						</div>
-						<div class="col-4 col-12-small">
-							<input type="radio" id="demo-priority-normal" name="demo-priority">
-							<label for="demo-priority-normal">Normal Priority</label>
-						</div>
-						<div class="col-4 col-12-small">
-							<input type="radio" id="demo-priority-high" name="demo-priority">
-							<label for="demo-priority-high">High Priority</label>
-						</div>
-						<div class="col-6 col-12-small">
-							<input type="checkbox" id="demo-copy" name="demo-copy">
-							<label for="demo-copy">Email me a copy of this message</label>
-						</div>
-						<div class="col-6 col-12-small">
-							<input type="checkbox" id="demo-human" name="demo-human" checked>
-							<label for="demo-human">I am a human and not a robot</label>
-						</div>
-						<div class="col-12">
-							<textarea name="demo-message" id="demo-message" placeholder="Enter your message"
-								rows="6"></textarea>
-						</div>
-						<div class="col-12">
-							<ul class="actions">
-								<li><input type="submit" value="Send Message" class="primary" /></li>
-								<li><input type="reset" value="Reset" /></li>
+							<h5>Ordered</h5>
+							<ol>
+								<li>Dolor pulvinar etiam magna etiam.</li>
+								<li>Etiam vel felis at lorem sed viverra.</li>
+								<li>Felis enim feugiat dolore viverra.</li>
+								<li>Dolor pulvinar etiam magna etiam.</li>
+								<li>Etiam vel felis at lorem sed viverra.</li>
+								<li>Felis enim feugiat dolore viverra.</li>
+							</ol>
+							<h5>Icons</h5>
+							<ul class="icons">
+								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
+								</li>
+								<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a>
+								</li>
+								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
 							</ul>
 						</div>
 					</div>
-				</form>
-			</section>
-
-			<section>
-				<h4>Image</h4>
-				<h5>Fit</h5>
-				<div class="box alt">
-					<div class="row gtr-50 gtr-uniform">
-						<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span>
+					<h5>Actions</h5>
+					<ul class="actions">
+						<li><a href="#" class="button primary">Default</a></li>
+						<li><a href="#" class="button">Default</a></li>
+					</ul>
+					<ul class="actions small">
+						<li><a href="#" class="button primary small">Small</a></li>
+						<li><a href="#" class="button small">Small</a></li>
+					</ul>
+					<div class="row">
+						<div class="col-6 col-12-small">
+							<ul class="actions stacked">
+								<li><a href="#" class="button primary">Default</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
 						</div>
-						<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span>
+						<div class="col-6 col-12-small">
+							<ul class="actions stacked">
+								<li><a href="#" class="button primary small">Small</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
 						</div>
-						<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span>
+						<div class="col-6 col-12-small">
+							<ul class="actions stacked">
+								<li><a href="#" class="button primary fit">Default</a></li>
+								<li><a href="#" class="button fit">Default</a></li>
+							</ul>
 						</div>
-						<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span>
-						</div>
-						<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span>
-						</div>
-						<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span>
-						</div>
-						<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span>
-						</div>
-						<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span>
-						</div>
-						<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span>
-						</div>
-						<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span>
+						<div class="col-6 col-12-small">
+							<ul class="actions stacked">
+								<li><a href="#" class="button primary small fit">Small</a></li>
+								<li><a href="#" class="button small fit">Small</a></li>
+							</ul>
 						</div>
 					</div>
-				</div>
-				<h5>Left &amp; Right</h5>
-				<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan
-					interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in
-					faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu
-					faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum
-					ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing
-					accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt
-					felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit
-					adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque
-					praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus
-					vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer
-					ac pellentesque praesent.</p>
-				<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan
-					interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in
-					faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu
-					faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum
-					ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing
-					accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt
-					felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit
-					adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque
-					praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus
-					vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer
-					ac pellentesque praesent.</p>
+				</section>
+
+				<section>
+					<h4>Table</h4>
+					<h5>Default</h5>
+					<div class="table-wrapper">
+						<table>
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Item One</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Two</td>
+									<td>Vis ac commodo adipiscing arcu aliquet.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Three</td>
+									<td> Morbi faucibus arcu accumsan lorem.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Four</td>
+									<td>Vitae integer tempus condimentum.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Five</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2"></td>
+									<td>100.00</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+
+					<h5>Alternate</h5>
+					<div class="table-wrapper">
+						<table class="alt">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Item One</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Two</td>
+									<td>Vis ac commodo adipiscing arcu aliquet.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Three</td>
+									<td> Morbi faucibus arcu accumsan lorem.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Four</td>
+									<td>Vitae integer tempus condimentum.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Five</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2"></td>
+									<td>100.00</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</section>
+
+				<section>
+					<h4>Buttons</h4>
+					<ul class="actions">
+						<li><a href="#" class="button primary">Primary</a></li>
+						<li><a href="#" class="button">Default</a></li>
+					</ul>
+					<ul class="actions">
+						<li><a href="#" class="button large">Large</a></li>
+						<li><a href="#" class="button">Default</a></li>
+						<li><a href="#" class="button small">Small</a></li>
+					</ul>
+					<ul class="actions fit">
+						<li><a href="#" class="button primary fit">Fit</a></li>
+						<li><a href="#" class="button fit">Fit</a></li>
+					</ul>
+					<ul class="actions fit small">
+						<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+						<li><a href="#" class="button fit small">Fit + Small</a></li>
+					</ul>
+					<ul class="actions">
+						<li><a href="/downloads/Vamsi_Naradasu_Resume.pdf" download="Vamsi_Naradasu_Resume">
+								<button>Download PDF</button>
+							</a></li>
+						<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+					</ul>
+					<ul class="actions">
+						<li><span class="button primary disabled">Primary</span></li>
+						<li><span class="button disabled">Default</span></li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>Form</h4>
+					<form method="post" action="#">
+						<div class="row gtr-uniform gtr-50">
+							<div class="col-6 col-12-xsmall">
+								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+							</div>
+							<div class="col-6 col-12-xsmall">
+								<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+							</div>
+							<div class="col-12">
+								<select name="demo-category" id="demo-category">
+									<option value="">- Category -</option>
+									<option value="1">Manufacturing</option>
+									<option value="1">Shipping</option>
+									<option value="1">Administration</option>
+									<option value="1">Human Resources</option>
+								</select>
+							</div>
+							<div class="col-4 col-12-small">
+								<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+								<label for="demo-priority-low">Low Priority</label>
+							</div>
+							<div class="col-4 col-12-small">
+								<input type="radio" id="demo-priority-normal" name="demo-priority">
+								<label for="demo-priority-normal">Normal Priority</label>
+							</div>
+							<div class="col-4 col-12-small">
+								<input type="radio" id="demo-priority-high" name="demo-priority">
+								<label for="demo-priority-high">High Priority</label>
+							</div>
+							<div class="col-6 col-12-small">
+								<input type="checkbox" id="demo-copy" name="demo-copy">
+								<label for="demo-copy">Email me a copy of this message</label>
+							</div>
+							<div class="col-6 col-12-small">
+								<input type="checkbox" id="demo-human" name="demo-human" checked>
+								<label for="demo-human">I am a human and not a robot</label>
+							</div>
+							<div class="col-12">
+								<textarea name="demo-message" id="demo-message" placeholder="Enter your message"
+									rows="6"></textarea>
+							</div>
+							<div class="col-12">
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="primary" /></li>
+									<li><input type="reset" value="Reset" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</section>
+
+				<section>
+					<h4>Image</h4>
+					<h5>Fit</h5>
+					<div class="box alt">
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span>
+							</div>
+							<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span>
+							</div>
+							<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span>
+							</div>
+							<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span>
+							</div>
+							<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span>
+							</div>
+							<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span>
+							</div>
+							<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span>
+							</div>
+							<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span>
+							</div>
+							<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span>
+							</div>
+							<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span>
+							</div>
+						</div>
+					</div>
+					<h5>Left &amp; Right</h5>
+					<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan
+						interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in
+						faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu
+						faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum
+						ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing
+						accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt
+						felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit
+						adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque
+						praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus
+						vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer
+						ac pellentesque praesent.</p>
+					<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan
+						interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in
+						faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu
+						faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum
+						ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing
+						accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt
+						felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit
+						adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque
+						praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus
+						vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer
+						ac pellentesque praesent.</p>
+				</section>
+
 			</section>
 
-		</section>
+
+		</div> -->
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="https://github.com/VamsiN7" class="icon brands fa-github"></a></li>
+					<li><a href="#contact" onclick="redirectToEmail()" class="icon solid fa-envelope"><span
+								class="label">Email</span></a></li>
+					<li><a href="https://www.linkedin.com/in/vamsin7" class="fab fa-linkedin"
+							style="font-size: 25px;"></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Vamsi Naradasu</li>
+				</ul>
+			</div>
+		</footer>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 
-	</div> -->
+		<script>
+			function openPdf() {
+				window.open('./assets/Vamsi_Naradasu_Resume.pdf', '_blank');
+			}
+			function openCMPdf() {
+				window.open('./assets/Enabling End-to-End Automation through Automated Handshaking Strategy -Vamsi Naradasu.pdf', '_blank');
+			}
+			function redirectToEmail() {
+				window.location.href = "mailto:naradasu.v@northeastern.edu";
+			}
+			let currentSlide = 0;
+			const slides = document.querySelectorAll("#slider .slide");
 
-	<!-- Footer -->
-	<footer id="footer">
-		<div class="inner">
-			<ul class="icons">
-				<li><a href="https://github.com/VamsiN7" class="icon brands fa-github"></a></li>
-				<li><a href="#contact" onclick="redirectToEmail()" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-				<li><a href="https://www.linkedin.com/in/vamsin7" class="fab fa-linkedin" style="font-size: 25px;"></a></li>
-			</ul>
-			<ul class="copyright">
-				<li>&copy; Vamsi Naradasu</li>
-			</ul>
-		</div>
-	</footer>
+			function showSlide(n) {
+				slides[currentSlide].style.display = 'none';
+				currentSlide = (n + slides.length) % slides.length;
+				slides[currentSlide].style.display = 'block';
+			}
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.poptrox.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+			function changeSlide(n) {
+				showSlide(currentSlide + n);
+			}
+			function toggleReadMore() {
+    var listItems = document.querySelectorAll('#workExperienceList li');
+    var btn = document.getElementById('readMoreBtn');
 
-	<script>
-		function openPdf() {
-		  window.open('./assets/Vamsi_Naradasu_Resume.pdf', '_blank');
-		}
-		function redirectToEmail() {
-		  window.location.href = "mailto:naradasu.v@northeastern.edu";
-		}
-	  </script>
+    var isExpanded = btn.innerText === 'Read Less';
+    listItems.forEach(function(item, index) {
+        if (index >= 5) { // Hide or show items beyond the third
+            item.style.display = isExpanded ? 'none' : 'list-item';
+        }
+    });
+
+    btn.innerText = isExpanded ? 'Read More' : 'Read Less';
+}
+
+// Initial setup to hide items when the page loads
+document.addEventListener('DOMContentLoaded', () => {
+    toggleReadMore();
+});
+
+
+		</script>
 </body>
 
 </html>
